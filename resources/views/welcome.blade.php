@@ -23,24 +23,29 @@
         <link rel="stylesheet" type="text/css" href="sheet.css">
 
         <style>
-        .citadelcard {
-            border: 1px solid black;
-            background-color: black;
-            padding-top:5px;
-            padding-right:5px;
-            padding-left:5px; 
+
+        body {
+          background-repeat: no-repeat;
+          background-size: 100%;
         }
 
-        .torrent {
-            color:white;
-            
+
+        div.content {
+            position: absolute;
+            visibility: visible;
+            top: 180px;
+            left: 100px;
+            width: 200px;
+            height: 100px;
+            border: 5px solid #8AC007
+;
         }
-        </style>
+</style>
 </head>
      <title>Login Page</title>
     </head>
 
-    <body class='bg'> 
+    <body style="background-image: url(img/books.jpg);">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Citadel</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" style="">
@@ -52,33 +57,26 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Categories</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">About Us</a>
                 </li>
                 </ul>
                 <a href="#"> <button type="button" class="btn btn-danger">Sign in with Google+</button> </a>
                 </div>
             </div>
         </nav>
-        <br>
-        <br>
-        <div class='col-md-3'>
-        <div class='citadelcard'>
-        <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
-             <div class="card-header">The Most Amazing e-Book Store</div>
-                <div class="card-body">
-                    <h4 class="card-title">Exclusively for Engineering e-Books</h4>
-                    <pre class='torrent'><B>Need Virus ?</B></pre>
-                    <pre class='torrent'><B>    Use </B></pre>
-                </div>
-            </div>
+
+
+        <div class="card bg-danger text-white">
+        <div class="card-body">Danger card</div>
         </div>
-        </div>
+        <div class="content">
+        <p style="color:black; font-size:162%; back"> Need Virus ?
         </div>
 
 
