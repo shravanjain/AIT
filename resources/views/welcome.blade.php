@@ -35,11 +35,58 @@
             visibility: visible;
             top: 180px;
             left: 100px;
-            width: 200px;
-            height: 100px;
-            border: 5px solid #8AC007
-;
+            width: auto;
+            height: auto;
+            <!--border: 5px solid #8AC007-->
         }
+
+        div.otherlinks {
+            position: absolute;
+            visibility: visible;
+            top: 380px;
+            left: 700px;
+            width: auto;
+            height: auto;
+            font-size:120%;
+            <!--border: 5px solid #8AC007-->
+        }
+
+        .torrent{
+            color: green;
+            font-size: 200%
+        }
+
+        .virus{
+            font-size: 150%
+        }
+
+        .citadel{
+            font-size: 150%;
+            color: red;
+        }
+
+        /* unvisited link */
+        a:link {
+            color: white;
+        }
+
+        /* visited link */
+        a:visited {
+            color: yellow;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: blue;
+        }
+
+        /* selected link */
+        a:active {
+            color: red;
+        }
+
+
+
 </style>
 </head>
      <title>Login Page</title>
@@ -71,13 +118,33 @@
             </div>
         </nav>
 
-
-        <div class="card bg-danger text-white">
-        <div class="card-body">Danger card</div>
-        </div>
+        <!--<div class="content">
+            <div class="card" style="width:400px">
+            <div class="card-body">
+            <h4 class="card-title">Need Virus ?</h4>
+            <p class="card-text">        Use Torrent</p>
+            </div>
+            <img class="card-img-bottom" src="img/cardimage.jpg" alt="Card image" style="width:100%">
+            </div>
+        </div>-->
         <div class="content">
-        <p style="color:black; font-size:162%; back"> Need Virus ?
+            <div class="card">
+                <div><B class="virus">Need Virus ?</B><BR>
+                <B class="torrent">Use μTorrent</style></B><BR>
+                <B class="virus">Need Free eBooks ?&nbsp;&nbsp;&nbsp;&nbsp</B><BR>
+                <B class="citadel">Use Citadel</style></B>
+                </div>
+            </div>
         </div>
+
+
+        <div class="otherlinks">
+            <a href="#"> View |</a>
+            <a href="#"> Download | </a>
+            <a href="#"> Suggest</a>
+        </div>
+
+        
 
 
 </body>
